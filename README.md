@@ -55,12 +55,12 @@ Here's a walkthrough of implemented user stories:
 
 - Restaurant Home page displays the restaurant name and provides 'Open wait list' button. Clicking on the button displays an empty list, an entry is added to the list whenever a user joins the wait list. The customer app allows you to browse the restaurants around your location, view the wait time, pictures, address, reviews, etc. 
 
-<img src='https://github.com/kerbless/Kerb/blob/master/gifs/demoday/Kerb_Story1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sushmatn/Kerb/blob/master/gifs/Kerb_RestaurantApp_story1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
- <img src='https://github.com/kerbless/Kerb/blob/master/gifs/demoday/Kerb_Story2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+ <img src='https://github.com/sushmatn/Kerb/blob/master/gifs/Kerb_RestaurantApp_story2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
  
- - Detail video for customer app: https://github.com/kerbless/Kerb/blob/master/gifs/demoday/mobizen_20151106_195415.mp4
+ - Detail video for customer app: https://github.com/sushmatn/Kerb/blob/master/gifs/demoday/mobizen_20151106_195415.mp4
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
