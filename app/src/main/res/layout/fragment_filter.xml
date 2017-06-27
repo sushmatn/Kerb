@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party Size"
+        android:id="@+id/tvPartySize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivPartySize"
+        android:background="@drawable/white_rect"
+        android:layout_below="@+id/tvPartySize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Wait Time"
+        android:id="@+id/tvWaitTime"
+        android:layout_below="@+id/ivPartySize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivWaitTime"
+        android:layout_below="@+id/tvWaitTime"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/white_rect"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Distance"
+        android:id="@+id/tvDistance"
+        android:layout_below="@+id/ivWaitTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivDistance"
+        android:layout_below="@+id/tvDistance"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/white_rect"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivMinusPartySize"
+        android:layout_below="@+id/tvPartySize"
+        android:layout_alignLeft="@+id/ivPartySize"
+        android:layout_alignStart="@+id/ivPartySize"
+        android:src="@drawable/icon_minus"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivPlusPartySize"
+        android:layout_alignTop="@+id/ivPartySize"
+        android:layout_alignRight="@+id/ivPartySize"
+        android:layout_alignEnd="@+id/ivPartySize"
+        android:src="@drawable/plus_icon"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivMinusWaitTime"
+        android:layout_below="@+id/tvWaitTime"
+        android:layout_alignLeft="@+id/ivWaitTime"
+        android:layout_alignStart="@+id/ivWaitTime"
+        android:src="@drawable/icon_minus"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivPlusWaitTime"
+        android:layout_alignTop="@+id/ivWaitTime"
+        android:layout_alignRight="@+id/ivWaitTime"
+        android:layout_alignEnd="@+id/ivWaitTime"
+        android:src="@drawable/plus_icon"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivMinusDistance"
+        android:layout_below="@+id/tvDistance"
+        android:layout_alignLeft="@+id/ivDistance"
+        android:layout_alignStart="@+id/ivDistance"
+        android:src="@drawable/icon_minus"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:id="@+id/ivPlusDistance"
+        android:layout_alignTop="@+id/ivDistance"
+        android:layout_alignRight="@+id/ivDistance"
+        android:layout_alignEnd="@+id/ivDistance"
+        android:src="@drawable/plus_icon"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/button"
+        android:textColor="#ff5555"
+        android:textStyle="bold"
+        android:background="#e8e8e8"
+        android:layout_below="@+id/ivDistance"
+        android:layout_alignLeft="@+id/ivMinusDistance"
+        android:layout_alignStart="@+id/ivMinusDistance"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Filter"
+        android:id="@+id/button2"
+        android:textColor="#ff5555"
+        android:textStyle="bold"
+        android:background="#e8e8e8"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/ivDistance"
+        android:layout_alignEnd="@+id/ivDistance"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/tvtPartySize"
+        android:layout_alignBottom="@+id/ivPartySize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp"
+        android:textColor="#ff5555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:id="@+id/tvtWaitTime"
+        android:layout_alignBottom="@+id/ivWaitTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp"
+        android:textColor="#ff5555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/tvtDistance"
+        android:layout_alignBottom="@+id/ivDistance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="15dp"
+        android:textColor="#ff5555" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/tvDistance"
+        android:layout_toRightOf="@+id/tvDistance"
+        android:layout_toEndOf="@+id/tvDistance"
+        android:src="@drawable/ic_distance_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView6"
+        android:layout_alignBottom="@+id/tvWaitTime"
+        android:layout_toRightOf="@+id/tvWaitTime"
+        android:layout_toEndOf="@+id/tvWaitTime"
+        android:src="@drawable/ic_clock_gray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/ic_people_gray"
+        android:layout_above="@+id/ivPartySize"
+        android:layout_toRightOf="@+id/tvDistance"
+        android:layout_toEndOf="@+id/tvDistance"
+        android:layout_marginBottom="4dp" />
+
+</RelativeLayout>

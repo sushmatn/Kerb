@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kerbless.kerb.activities.RestaurantMainActivity">
+    <item android:id="@+id/action_createWaitList" android:title="@string/createWaitList"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_create_waitlist"/>
+</menu>

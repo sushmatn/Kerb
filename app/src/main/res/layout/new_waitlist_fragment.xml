@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_waitlist"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center" android:orientation="vertical"  >
+
+    <!--<TextView
+        android:id="@+id/tvDefaultWaitTime" android:text="@string/default_wait_time"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"/>-->
+
+    <EditText
+        android:id="@+id/etDefaultWaitTime"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/black"
+        android:hint="@string/minutes"
+        android:imeOptions="actionDone"/>
+
+    <View
+        android:id="@+id/dummyView"
+        android:paddingBottom="30dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create"
+        android:id="@+id/btnCreateList"
+        android:layout_marginLeft="30dp"/>-->
+</LinearLayout>

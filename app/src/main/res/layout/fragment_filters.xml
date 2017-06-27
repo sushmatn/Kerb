@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="17dp"
+            android:id="@+id/ivDist"
+            android:src="@drawable/ic_distance_gray"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Distance (mi)"
+        android:id="@+id/tvDistance"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="15dp">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:text="0.5"
+        android:textColor="@drawable/state_filter_button_text_color"
+        android:id="@+id/btnD1"
+        android:background="@drawable/states_filter_button"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:text="1"
+        android:textColor="@drawable/state_filter_button_text_color"
+        android:id="@+id/btnD2"
+        android:background="@drawable/states_filter_button"
+        android:layout_margin="5dp"
+        android:enabled="true" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="2"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnD3"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="5"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnD4"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backgroundGray"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/div1">
+        </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:id="@+id/ivPartyS"
+            android:src="@drawable/ic_people_gray"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party Size"
+        android:id="@+id/tvPartySize"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="3dp" />
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="1-2"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:id="@+id/btnP1"
+            android:background="@drawable/states_filter_button"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="3-4"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:id="@+id/btnP2"
+            android:background="@drawable/states_filter_button"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="5-6"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnP3"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="7-8"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnP4"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backgroundGray"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/div2">
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:id="@+id/ivWt"
+            android:src="@drawable/ic_clock_gray"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Wait Time (minutes)"
+        android:id="@+id/tvWaitTime"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="3dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="15"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:id="@+id/btnW1"
+            android:background="@drawable/states_filter_button"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="30"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:id="@+id/btnW2"
+            android:background="@drawable/states_filter_button"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="45"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnW4"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="60"
+            android:textColor="@drawable/state_filter_button_text_color"
+            android:background="@drawable/states_filter_button"
+            android:id="@+id/btnW5"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/tvCancel"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="left"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE FILTER"
+            android:id="@+id/tvSave"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="right"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_gravity="right" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

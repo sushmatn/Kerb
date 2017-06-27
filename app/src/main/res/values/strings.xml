@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Kerb</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listings">ListingsActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_listing_detail">ListingDetailActivity</string>
+    <string name="title_activity_restaurant_main">RestaurantMainActivity</string>
+    <string name="title_activity_restaurant_parse">RestaurantParseActivity</string>
+    <string name="new_list">New Wait List</string>
+    <string name="archive">Archive</string>
+    <string name="analytics">Analytics</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="current_list">Current Wait List</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="title_activity_initialize_parse">InitializeParse</string>
+    <string name="minutes">min</string>
+    <string name="title_activity_user_wait_list">UserWaitListActivity</string>
+    <string name="title_activity_customer_notification">CustomerNotificationActivity</string>
+    <string name="notification_body">Notification Body</string>
+    <string name="createWaitList">New WaitList</string>
+    <string name="new_waitlist">Create new Wait List</string>
+    <string name="create">Create</string>
+    <string name="default_wait_time">Default Wait Time</string>
+    <string name="emptyWaitList">No customers waiting...</string>
+    <string name="notOpen">Wait List not open, create a wait list when ready to accept customers.</string>
+    <string name="table_ready">Table ready! Please come to front desk.</string>
+    <string name="waiting">waiting</string>
+    <string name="waittime">wait time</string>
+    <string name="seated">seated</string>
+    <string name="emptyListMessage">No results</string>
+    <string name="waitlistOpen">The waitlist is open!</string>
+    <string name="waitlistClosed">The restaurant waitlist is currently closed</string>
+    <string name="reportWaitStatus">Please help us report accurate wait times</string>
+    <string name="notInVicinity">You need to be within 160 meters of the restaurant to join the waitlist</string>
+    <string name="snackbar_undo_remove">Undo?</string>
+    <string name="snackbar_remove_item">removed from wait list.</string>
+    <string name="progress_dialog">Please wait</string>
+    <string name="please_wait">Adding you to the wait list...</string>
+    <string name="login">Logging in</string>
+    <string name="notified">Notified</string>
+    <string name="invalid_cred_msg">Invalid Credentials</string>
+    <string name="reportwait">Report Wait Time</string>
+</resources>

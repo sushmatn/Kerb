@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@android:color/transparent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/backgroundGray"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true">
+
+                    <ImageView
+                        android:id="@+id/ivResImage"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:fitsSystemWindows="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_bg" />
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@android:color/transparent"
+                        app:theme="@style/Toolbar_Theme" />
+
+                </FrameLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fragmentRoot"
+                    android:visibility="gone"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="124dp">
+
+                    <TextView
+                        android:id="@+id/tvRestaurantName"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:id="@+id/activityFrameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white"
+                        android:layout_below="@+id/tvRestaurantName"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nvDrawer"
+            android:layout_width="@dimen/drawer_size"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@color/divider"
+            android:dividerHeight="0dp"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/drawer_view" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/doorRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/doorBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:id="@+id/doorContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <FrameLayout
+                android:id="@+id/tvCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true">
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/ivDoor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/door" />
+
+            <FrameLayout
+                android:id="@+id/cardRoot"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_above="@id/tvCenter"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp">
+
+                <ImageView
+                    android:id="@+id/ivCardFace"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:onClick="onCardClick"
+                    android:src="@drawable/closed_sign" />
+
+                <ImageView
+                    android:id="@+id/ivCardBack"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/open_sign"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>
